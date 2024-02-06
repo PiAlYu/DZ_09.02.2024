@@ -15,7 +15,7 @@ for i in range(n):
     else:
         o = a[i - 5:i + 6]
     o1 = copy(o)
-    for j in range(7):
+    for j in range(12):
         if b[j] in o:
             o.remove(b[j])
         else:
